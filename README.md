@@ -10,7 +10,7 @@ The shim fixes editor-overlay behavior, selected Wine/X11 drawing errors, and
 the window appearing one frame behind. It consists of a Windows `version.dll`
 proxy and a Linux `libcapcut_xcopy.so` companion. Both are required for the full fix.
 
-**[Download the prebuilt v0.4 package](packages/CapCut-Wine-Compat-v0.4.zip?raw=1)** ·
+**[Download the prebuilt v0.4 package](https://github.com/ios7jbpro/capcut-linux/releases/tag/v0.4)** ·
 [Build from source](#build-from-source) · [Troubleshooting](#troubleshooting)
 
 ## Requirements
