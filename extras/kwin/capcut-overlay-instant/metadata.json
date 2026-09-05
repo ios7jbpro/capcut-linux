@@ -1,0 +1,15 @@
+{
+  "KPackageStructure": "KWin/Effect",
+  "KPlugin": {
+    "Id": "capcut-overlay-instant",
+    "Name": "CapCut overlay: instant transitions",
+    "Description": "Skip open and close animations for CapCut's frameless, non-modal editor overlays.",
+    "Version": "1.0",
+    "License": "MIT",
+    "EnabledByDefault": false,
+    "Category": "Window Management"
+  },
+  "X-KDE-Ordering": 1,
+  "X-Plasma-API": "javascript",
+  "X-Plasma-MainScript": "code/main.js"
+}

@@ -1,0 +1,392 @@
+.text
+.globl proxy_0
+proxy_0:
+ subq $168, %rsp
+ movq %rcx,32(%rsp)
+ movq %rdx,40(%rsp)
+ movq %r8,48(%rsp)
+ movq %r9,56(%rsp)
+ movdqu %xmm0,64(%rsp)
+ movdqu %xmm1,80(%rsp)
+ movdqu %xmm2,96(%rsp)
+ movdqu %xmm3,112(%rsp)
+ movl $0,%ecx
+ callq resolve_export
+ movdqu 64(%rsp),%xmm0
+ movdqu 80(%rsp),%xmm1
+ movdqu 96(%rsp),%xmm2
+ movdqu 112(%rsp),%xmm3
+ movq 32(%rsp),%rcx
+ movq 40(%rsp),%rdx
+ movq 48(%rsp),%r8
+ movq 56(%rsp),%r9
+ addq $168,%rsp
+ jmpq *%rax
+.globl proxy_1
+proxy_1:
+ subq $168, %rsp
+ movq %rcx,32(%rsp)
+ movq %rdx,40(%rsp)
+ movq %r8,48(%rsp)
+ movq %r9,56(%rsp)
+ movdqu %xmm0,64(%rsp)
+ movdqu %xmm1,80(%rsp)
+ movdqu %xmm2,96(%rsp)
+ movdqu %xmm3,112(%rsp)
+ movl $1,%ecx
+ callq resolve_export
+ movdqu 64(%rsp),%xmm0
+ movdqu 80(%rsp),%xmm1
+ movdqu 96(%rsp),%xmm2
+ movdqu 112(%rsp),%xmm3
+ movq 32(%rsp),%rcx
+ movq 40(%rsp),%rdx
+ movq 48(%rsp),%r8
+ movq 56(%rsp),%r9
+ addq $168,%rsp
+ jmpq *%rax
+.globl proxy_2
+proxy_2:
+ subq $168, %rsp
+ movq %rcx,32(%rsp)
+ movq %rdx,40(%rsp)
+ movq %r8,48(%rsp)
+ movq %r9,56(%rsp)
+ movdqu %xmm0,64(%rsp)
+ movdqu %xmm1,80(%rsp)
+ movdqu %xmm2,96(%rsp)
+ movdqu %xmm3,112(%rsp)
+ movl $2,%ecx
+ callq resolve_export
+ movdqu 64(%rsp),%xmm0
+ movdqu 80(%rsp),%xmm1
+ movdqu 96(%rsp),%xmm2
+ movdqu 112(%rsp),%xmm3
+ movq 32(%rsp),%rcx
+ movq 40(%rsp),%rdx
+ movq 48(%rsp),%r8
+ movq 56(%rsp),%r9
+ addq $168,%rsp
+ jmpq *%rax
+.globl proxy_3
+proxy_3:
+ subq $168, %rsp
+ movq %rcx,32(%rsp)
+ movq %rdx,40(%rsp)
+ movq %r8,48(%rsp)
+ movq %r9,56(%rsp)
+ movdqu %xmm0,64(%rsp)
+ movdqu %xmm1,80(%rsp)
+ movdqu %xmm2,96(%rsp)
+ movdqu %xmm3,112(%rsp)
+ movl $3,%ecx
+ callq resolve_export
+ movdqu 64(%rsp),%xmm0
+ movdqu 80(%rsp),%xmm1
+ movdqu 96(%rsp),%xmm2
+ movdqu 112(%rsp),%xmm3
+ movq 32(%rsp),%rcx
+ movq 40(%rsp),%rdx
+ movq 48(%rsp),%r8
+ movq 56(%rsp),%r9
+ addq $168,%rsp
+ jmpq *%rax
+.globl proxy_4
+proxy_4:
+ subq $168, %rsp
+ movq %rcx,32(%rsp)
+ movq %rdx,40(%rsp)
+ movq %r8,48(%rsp)
+ movq %r9,56(%rsp)
+ movdqu %xmm0,64(%rsp)
+ movdqu %xmm1,80(%rsp)
+ movdqu %xmm2,96(%rsp)
+ movdqu %xmm3,112(%rsp)
+ movl $4,%ecx
+ callq resolve_export
+ movdqu 64(%rsp),%xmm0
+ movdqu 80(%rsp),%xmm1
+ movdqu 96(%rsp),%xmm2
+ movdqu 112(%rsp),%xmm3
+ movq 32(%rsp),%rcx
+ movq 40(%rsp),%rdx
+ movq 48(%rsp),%r8
+ movq 56(%rsp),%r9
+ addq $168,%rsp
+ jmpq *%rax
+.globl proxy_5
+proxy_5:
+ subq $168, %rsp
+ movq %rcx,32(%rsp)
+ movq %rdx,40(%rsp)
+ movq %r8,48(%rsp)
+ movq %r9,56(%rsp)
+ movdqu %xmm0,64(%rsp)
+ movdqu %xmm1,80(%rsp)
+ movdqu %xmm2,96(%rsp)
+ movdqu %xmm3,112(%rsp)
+ movl $5,%ecx
+ callq resolve_export
+ movdqu 64(%rsp),%xmm0
+ movdqu 80(%rsp),%xmm1
+ movdqu 96(%rsp),%xmm2
+ movdqu 112(%rsp),%xmm3
+ movq 32(%rsp),%rcx
+ movq 40(%rsp),%rdx
+ movq 48(%rsp),%r8
+ movq 56(%rsp),%r9
+ addq $168,%rsp
+ jmpq *%rax
+.globl proxy_6
+proxy_6:
+ subq $168, %rsp
+ movq %rcx,32(%rsp)
+ movq %rdx,40(%rsp)
+ movq %r8,48(%rsp)
+ movq %r9,56(%rsp)
+ movdqu %xmm0,64(%rsp)
+ movdqu %xmm1,80(%rsp)
+ movdqu %xmm2,96(%rsp)
+ movdqu %xmm3,112(%rsp)
+ movl $6,%ecx
+ callq resolve_export
+ movdqu 64(%rsp),%xmm0
+ movdqu 80(%rsp),%xmm1
+ movdqu 96(%rsp),%xmm2
+ movdqu 112(%rsp),%xmm3
+ movq 32(%rsp),%rcx
+ movq 40(%rsp),%rdx
+ movq 48(%rsp),%r8
+ movq 56(%rsp),%r9
+ addq $168,%rsp
+ jmpq *%rax
+.globl proxy_7
+proxy_7:
+ subq $168, %rsp
+ movq %rcx,32(%rsp)
+ movq %rdx,40(%rsp)
+ movq %r8,48(%rsp)
+ movq %r9,56(%rsp)
+ movdqu %xmm0,64(%rsp)
+ movdqu %xmm1,80(%rsp)
+ movdqu %xmm2,96(%rsp)
+ movdqu %xmm3,112(%rsp)
+ movl $7,%ecx
+ callq resolve_export
+ movdqu 64(%rsp),%xmm0
+ movdqu 80(%rsp),%xmm1
+ movdqu 96(%rsp),%xmm2
+ movdqu 112(%rsp),%xmm3
+ movq 32(%rsp),%rcx
+ movq 40(%rsp),%rdx
+ movq 48(%rsp),%r8
+ movq 56(%rsp),%r9
+ addq $168,%rsp
+ jmpq *%rax
+.globl proxy_8
+proxy_8:
+ subq $168, %rsp
+ movq %rcx,32(%rsp)
+ movq %rdx,40(%rsp)
+ movq %r8,48(%rsp)
+ movq %r9,56(%rsp)
+ movdqu %xmm0,64(%rsp)
+ movdqu %xmm1,80(%rsp)
+ movdqu %xmm2,96(%rsp)
+ movdqu %xmm3,112(%rsp)
+ movl $8,%ecx
+ callq resolve_export
+ movdqu 64(%rsp),%xmm0
+ movdqu 80(%rsp),%xmm1
+ movdqu 96(%rsp),%xmm2
+ movdqu 112(%rsp),%xmm3
+ movq 32(%rsp),%rcx
+ movq 40(%rsp),%rdx
+ movq 48(%rsp),%r8
+ movq 56(%rsp),%r9
+ addq $168,%rsp
+ jmpq *%rax
+.globl proxy_9
+proxy_9:
+ subq $168, %rsp
+ movq %rcx,32(%rsp)
+ movq %rdx,40(%rsp)
+ movq %r8,48(%rsp)
+ movq %r9,56(%rsp)
+ movdqu %xmm0,64(%rsp)
+ movdqu %xmm1,80(%rsp)
+ movdqu %xmm2,96(%rsp)
+ movdqu %xmm3,112(%rsp)
+ movl $9,%ecx
+ callq resolve_export
+ movdqu 64(%rsp),%xmm0
+ movdqu 80(%rsp),%xmm1
+ movdqu 96(%rsp),%xmm2
+ movdqu 112(%rsp),%xmm3
+ movq 32(%rsp),%rcx
+ movq 40(%rsp),%rdx
+ movq 48(%rsp),%r8
+ movq 56(%rsp),%r9
+ addq $168,%rsp
+ jmpq *%rax
+.globl proxy_10
+proxy_10:
+ subq $168, %rsp
+ movq %rcx,32(%rsp)
+ movq %rdx,40(%rsp)
+ movq %r8,48(%rsp)
+ movq %r9,56(%rsp)
+ movdqu %xmm0,64(%rsp)
+ movdqu %xmm1,80(%rsp)
+ movdqu %xmm2,96(%rsp)
+ movdqu %xmm3,112(%rsp)
+ movl $10,%ecx
+ callq resolve_export
+ movdqu 64(%rsp),%xmm0
+ movdqu 80(%rsp),%xmm1
+ movdqu 96(%rsp),%xmm2
+ movdqu 112(%rsp),%xmm3
+ movq 32(%rsp),%rcx
+ movq 40(%rsp),%rdx
+ movq 48(%rsp),%r8
+ movq 56(%rsp),%r9
+ addq $168,%rsp
+ jmpq *%rax
+.globl proxy_11
+proxy_11:
+ subq $168, %rsp
+ movq %rcx,32(%rsp)
+ movq %rdx,40(%rsp)
+ movq %r8,48(%rsp)
+ movq %r9,56(%rsp)
+ movdqu %xmm0,64(%rsp)
+ movdqu %xmm1,80(%rsp)
+ movdqu %xmm2,96(%rsp)
+ movdqu %xmm3,112(%rsp)
+ movl $11,%ecx
+ callq resolve_export
+ movdqu 64(%rsp),%xmm0
+ movdqu 80(%rsp),%xmm1
+ movdqu 96(%rsp),%xmm2
+ movdqu 112(%rsp),%xmm3
+ movq 32(%rsp),%rcx
+ movq 40(%rsp),%rdx
+ movq 48(%rsp),%r8
+ movq 56(%rsp),%r9
+ addq $168,%rsp
+ jmpq *%rax
+.globl proxy_12
+proxy_12:
+ subq $168, %rsp
+ movq %rcx,32(%rsp)
+ movq %rdx,40(%rsp)
+ movq %r8,48(%rsp)
+ movq %r9,56(%rsp)
+ movdqu %xmm0,64(%rsp)
+ movdqu %xmm1,80(%rsp)
+ movdqu %xmm2,96(%rsp)
+ movdqu %xmm3,112(%rsp)
+ movl $12,%ecx
+ callq resolve_export
+ movdqu 64(%rsp),%xmm0
+ movdqu 80(%rsp),%xmm1
+ movdqu 96(%rsp),%xmm2
+ movdqu 112(%rsp),%xmm3
+ movq 32(%rsp),%rcx
+ movq 40(%rsp),%rdx
+ movq 48(%rsp),%r8
+ movq 56(%rsp),%r9
+ addq $168,%rsp
+ jmpq *%rax
+.globl proxy_13
+proxy_13:
+ subq $168, %rsp
+ movq %rcx,32(%rsp)
+ movq %rdx,40(%rsp)
+ movq %r8,48(%rsp)
+ movq %r9,56(%rsp)
+ movdqu %xmm0,64(%rsp)
+ movdqu %xmm1,80(%rsp)
+ movdqu %xmm2,96(%rsp)
+ movdqu %xmm3,112(%rsp)
+ movl $13,%ecx
+ callq resolve_export
+ movdqu 64(%rsp),%xmm0
+ movdqu 80(%rsp),%xmm1
+ movdqu 96(%rsp),%xmm2
+ movdqu 112(%rsp),%xmm3
+ movq 32(%rsp),%rcx
+ movq 40(%rsp),%rdx
+ movq 48(%rsp),%r8
+ movq 56(%rsp),%r9
+ addq $168,%rsp
+ jmpq *%rax
+.globl proxy_14
+proxy_14:
+ subq $168, %rsp
+ movq %rcx,32(%rsp)
+ movq %rdx,40(%rsp)
+ movq %r8,48(%rsp)
+ movq %r9,56(%rsp)
+ movdqu %xmm0,64(%rsp)
+ movdqu %xmm1,80(%rsp)
+ movdqu %xmm2,96(%rsp)
+ movdqu %xmm3,112(%rsp)
+ movl $14,%ecx
+ callq resolve_export
+ movdqu 64(%rsp),%xmm0
+ movdqu 80(%rsp),%xmm1
+ movdqu 96(%rsp),%xmm2
+ movdqu 112(%rsp),%xmm3
+ movq 32(%rsp),%rcx
+ movq 40(%rsp),%rdx
+ movq 48(%rsp),%r8
+ movq 56(%rsp),%r9
+ addq $168,%rsp
+ jmpq *%rax
+.globl proxy_15
+proxy_15:
+ subq $168, %rsp
+ movq %rcx,32(%rsp)
+ movq %rdx,40(%rsp)
+ movq %r8,48(%rsp)
+ movq %r9,56(%rsp)
+ movdqu %xmm0,64(%rsp)
+ movdqu %xmm1,80(%rsp)
+ movdqu %xmm2,96(%rsp)
+ movdqu %xmm3,112(%rsp)
+ movl $15,%ecx
+ callq resolve_export
+ movdqu 64(%rsp),%xmm0
+ movdqu 80(%rsp),%xmm1
+ movdqu 96(%rsp),%xmm2
+ movdqu 112(%rsp),%xmm3
+ movq 32(%rsp),%rcx
+ movq 40(%rsp),%rdx
+ movq 48(%rsp),%r8
+ movq 56(%rsp),%r9
+ addq $168,%rsp
+ jmpq *%rax
+.globl proxy_16
+proxy_16:
+ subq $168, %rsp
+ movq %rcx,32(%rsp)
+ movq %rdx,40(%rsp)
+ movq %r8,48(%rsp)
+ movq %r9,56(%rsp)
+ movdqu %xmm0,64(%rsp)
+ movdqu %xmm1,80(%rsp)
+ movdqu %xmm2,96(%rsp)
+ movdqu %xmm3,112(%rsp)
+ movl $16,%ecx
+ callq resolve_export
+ movdqu 64(%rsp),%xmm0
+ movdqu 80(%rsp),%xmm1
+ movdqu 96(%rsp),%xmm2
+ movdqu 112(%rsp),%xmm3
+ movq 32(%rsp),%rcx
+ movq 40(%rsp),%rdx
+ movq 48(%rsp),%r8
+ movq 56(%rsp),%r9
+ addq $168,%rsp
+ jmpq *%rax

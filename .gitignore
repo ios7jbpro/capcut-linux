@@ -1,0 +1,8 @@
+# Original local investigation, application backups, logs, and old packages.
+/work/
+/outputs/
+/src/build/
+/.package-build/
+*.log
+__pycache__/
+.DS_Store
